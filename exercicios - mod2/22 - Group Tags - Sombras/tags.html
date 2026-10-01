@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            background-image: linear-gradient(to bottom, #D1DFE5, #3C4042); 
+            background-attachment: fixed;
+        }
+
+        nav {
+            width: fit-content;
+            background-color: rgb(17, 0, 248);
+            box-shadow: 0px -2px 31px #000000; 
+            margin: 10px auto;
+            padding: 0px 60px; 
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        nav > a:hover {
+            color: rgb(255, 238, 0);
+            text-decoration: underline; 
+        }
+
+        h1 {
+            width: fit-content;
+            background-color: rgb(255 255 255);
+            color: #000000;
+            box-shadow: inset 1px 2px 8px 2px #020202;
+            margin: 0px auto;
+            padding: 0px 132px;
+        }
+
+        h1, h2, nav {
+            text-align: center;
+        }
+
+        article {
+            border-radius: 10px 0px;
+            background-color: gray;
+        }
+        
+        article > p {
+            background-color: gray;
+            text-align: justify;
+            text-indent: 20px;
+        }
+
+        #artigo {
+            background-color: lightgray;
+            text-align: center;
+            border-radius: 10px 0px;
+        }
+
+        header {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        main {
+            padding: 10px auto;
+            margin: 1px 10px 10px 10px;
+        }
+
+        #assuntos {
+            color: rgb(250, 249, 249);
+            text-align: justify;
+            background-color: #3C4042;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        #bola {
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            margin: 10px 10px 10px 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+    <header>
+        <h1>Meu site!</h1>
+        <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia Sobre o Brasil.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis blanditiis, id sequi quis error non tempore possimus porro, quam architecto voluptas unde repudiandae. In et quas autem dicta molestias numquam?</p>
+                <br>
+                <br>
+            </article>
+            <article>
+                <hr> 
+            </article>
+            <article>
+                <h2>Olá, mundo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores enim nihil ipsa ab repudiandae? Repellat mollitia tempore nobis, dolor amet, odit eveniet iste fugiat assumenda asperiores quaerat. Exercitationem, accusamus eaque!</p>
+                <aside id="artigo">
+                    <p>- Artigo escrito por PKepp</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Dev-PKepp</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>

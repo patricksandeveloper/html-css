@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        body {
+            background-image: linear-gradient(to bottom, #212F33, #52A4BA);
+            background-attachment: fixed;
+            font-family: 'Times New Roman', Times, serif
+        }
+
+        h1 {
+            color: white;
+        }
+
+        ul {
+            color: aliceblue;
+        }
+
+        a {
+            color: rgb(6, 194, 252);
+            text-decoration: none;
+            font-weight: bold;  
+        }
+
+        a:visited {
+            color: rgb(8, 182, 46);
+        }
+
+        
+        a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: rgb(255, 0, 0);
+        }
+
+        .especial {
+            background-color: rgb(109, 255, 129);
+        }
+        .especial::before {
+            content: "⇒";
+            font-weight: normal;
+            color: darkgray;
+        }
+        .especial::after {
+            content: "  ⇐";
+            font-weight: normal;
+            color: darkgray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links!</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io/" target="_blank" rel="next">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po" target="_blank" rel="next" class="especial">  Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/" target="_blank" rel="next">Site do Curso em Vídeo</a></li>
+    </ul>
+</body>
+</html>
