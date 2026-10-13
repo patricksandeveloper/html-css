@@ -5,4 +5,4 @@ Posição dos Fundos
 Personalização dos Fundos
 Teste de Imagens de Fundo
 Shorthand do Background
-Quase todos ou todos os Backgrounds
+Quase todos os Backgrounds
